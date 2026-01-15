@@ -108,7 +108,7 @@ export default function App() {
                   <Search className="h-5 w-5 text-slate-500" />
                   <input
                     className="w-full bg-transparent text-base outline-none placeholder:text-slate-400 md:text-lg"
-                    placeholder="예: 파란색 모자, 분홍 날개, 레인보우 스타"
+                    placeholder="예: 파란색 모자, 분홍 날개, 하얀 눈"
                     value={query}
                     onChange={(event) => setQuery(event.target.value)}
                   />
